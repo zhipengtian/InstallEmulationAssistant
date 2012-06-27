@@ -1,8 +1,11 @@
-The is a Emulation Assistant installer. It will install the Emulation Assistant to your computer. During to process, it will modify you Windows Registry. You can uninstall it through Control Panel easily.
+The is an Emulation Assistant Installer. It will install the Emulation Assistant to your computer. During to process, it will modify you Windows Registry to create a custom protocol. In this case, it will have no security issue when running it through web browser.
 
 Instllation:
 Installers are under InstallEmulationAssistant/Emulation Assistant/Debug/
 Both installer are the same.
 
 Test:
-After you install the Emulation Assistant, you can test it at http://mypage.iu.edu/~zhiptian
+After you install the Emulation Assistant, you can test it at http://mypage.iu.edu/~zhiptian.
+
+Uninstalltion:
+You can uninstall the Emulation Assistant in the Control Panel.
