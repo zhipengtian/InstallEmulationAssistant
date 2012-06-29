@@ -15,14 +15,8 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_2387E38F81B4481F9B6222E636BD0C8C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_92EADADA62A1BDC5D99730CFC7AFCB0E"
-        "OwnerKey" = "8:_2387E38F81B4481F9B6222E636BD0C8C"
+        "OwnerKey" = "8:_BEACE19280E6427DAA24A61CE762734A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -33,14 +27,20 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_92EADADA62A1BDC5D99730CFC7AFCB0E"
+        "MsmKey" = "8:_BEACE19280E6427DAA24A61CE762734A"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2387E38F81B4481F9B6222E636BD0C8C"
+        "OwnerKey" = "8:_BEACE19280E6427DAA24A61CE762734A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_92EADADA62A1BDC5D99730CFC7AFCB0E"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -148,37 +148,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2387E38F81B4481F9B6222E636BD0C8C"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:EmulationAssistant, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
-                "ScatterAssemblies"
-                {
-                    "_2387E38F81B4481F9B6222E636BD0C8C"
-                    {
-                    "Name" = "8:EmulationAssistant.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\..\\TestEmulationAssistant\\EmulationAssistant\\bin\\Debug\\EmulationAssistant.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_007745045F594157B41A0B5AB9443781"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_92EADADA62A1BDC5D99730CFC7AFCB0E"
             {
             "AssemblyRegister" = "3:1"
@@ -228,6 +197,37 @@
             "Register" = "3:4"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BEACE19280E6427DAA24A61CE762734A"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:EmulationAssistant, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+                "ScatterAssemblies"
+                {
+                    "_BEACE19280E6427DAA24A61CE762734A"
+                    {
+                    "Name" = "8:EmulationAssistant.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\..\\TestEmulationAssistant\\EmulationAssistant\\bin\\Debug\\EmulationAssistant.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_007745045F594157B41A0B5AB9443781"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -520,7 +520,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_039DFEEF4D784949B575A7A00BDC62DF"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CC12B8C4B837434FBB4A39435CC5522C"
             {
             "Name" = "8:Emulation Assistant"
             "Arguments" = "8:"
@@ -528,13 +528,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_2387E38F81B4481F9B6222E636BD0C8C"
+            "Target" = "8:_BEACE19280E6427DAA24A61CE762734A"
             "Folder" = "8:_CDE7B4CFB04F47FEAAA367D4D4936790"
             "WorkingFolder" = "8:_007745045F594157B41A0B5AB9443781"
             "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CFC9CD2A63524E3D9195EDCEA840CCF9"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CCBF631BA1C0412B8344020B17163787"
             {
             "Name" = "8:Emulation Assistant"
             "Arguments" = "8:"
@@ -542,7 +542,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_2387E38F81B4481F9B6222E636BD0C8C"
+            "Target" = "8:_BEACE19280E6427DAA24A61CE762734A"
             "Folder" = "8:_926DC66529AF4BAA9253AFA8FA9059FE"
             "WorkingFolder" = "8:_007745045F594157B41A0B5AB9443781"
             "Icon" = "8:"
