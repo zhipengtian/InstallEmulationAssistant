@@ -1,11 +1,19 @@
-The is an Emulation Assistant Installer. It will install the Emulation Assistant to your computer. During to process, it will modify you Windows Registry to create a custom protocol. In this case, it will have no security issue when running it through web browser.
+This is an Emulation Assistant Installer. It will install the Emulation Assistant to your computer.
 
-Instllation:
+Installation:
 Installers are under InstallEmulationAssistant/Emulation Assistant/Debug/
-Both installer are the same.
+Both installers are the same. If one of them does not work on your machine, please try the other one.
 
 Test:
-After you install the Emulation Assistant, you can test it at http://mypage.iu.edu/~zhiptian.
+After you install the Emulation Assistant, you can test it at http://mypage.iu.edu/~zhiptian. You can also run it through shortcuts on the desktop or start menu.
+Please make sure you set up the environment for the Emulation properly, otherwise you will not be able to run it. 
 
-Uninstalltion:
-You can uninstall the Emulation Assistant in the Control Panel.
+Uninstallation:
+You can uninstall the Emulation Assistant through the Control Panel.
+
+How It Works?
+During the process, it will modify you Windows Registry to create a custom URL protocol, and then register the Emulation Assistant to it. In this case, it will have no obvious security issue. Since it executes the Emulation Assistant "locally" through the custom protocol instead of highly protected "http" protocol.
+Here is a link that explains the custom protocol very well. http://msdn.microsoft.com/en-us/library/aa767914(v=vs.85).aspx
+
+Coding:
+No coding is required when modifying the installer, everything can be done with Visual Studio built-in functionalities. 
